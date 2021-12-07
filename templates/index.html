@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block content %}
+
+<h2>Resume Classifier</h2>
+
+<div>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="resumeUpload" class="upload-label">
+            Choose...
+        </label>
+        <input type="file" name="file" id="resumeUpload" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+    </form>
+
+    <div 
+        <div 
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Designation!</button>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+</div>
+
+{% endblock %}
+© 2021 GitHub, Inc.
+Term
