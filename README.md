@@ -1,4 +1,5 @@
 # Resume-Classification
+THe objective of this project is to build a NLP model that would be capable of classfying Resumes based on their skillset
     A unique webapp that takes in resumes and classifies its domain based on the skillset.
     This can be a very handy tool for Human Resources Team or staffing agents. Different 
     organisations have different positions to be filled, and also they receive multiple 
